@@ -1,0 +1,27 @@
+.dropdown-menu {
+  border-radius: 8px;
+  padding: 2px;
+  position: absolute;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+  .checkbox-label {
+    display: flex;
+  }
+}
+
+.dropdown-item {
+  cursor: pointer;
+  border-radius: 4px;
+  align-items: left;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+.dropdown-item label {
+  font-size: 14px;
+  padding: 4px 8px;
+  cursor: pointer;
+}

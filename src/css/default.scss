@@ -1,0 +1,77 @@
+:root {
+  font-family: Arial, Helvetica, Sans-Serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #213547;
+  background-color: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 20px;
+  --tree-font-size: 16px;
+  --tree-font-family: Arial;
+  --default-color: #213547;
+  --positive-color: #008000;
+  --negative-color: #ff0000;
+  --skipped-color: #213547;
+  --debug-color: #cea309;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+
+  &:hover {
+    color: #535bf2;
+  }
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 40px;
+}
+
+button {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &:hover {
+    border-color: #646cff;
+  }
+
+  &:focus,
+  &:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+}
+
+select {
+  min-width: 100px;
+  background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>")
+    no-repeat;
+  background-position: calc(100% - 10px) center;
+  appearance: none;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}

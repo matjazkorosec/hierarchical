@@ -1,0 +1,12 @@
+.debug {
+  color: var(--debug-color);
+}
+
+.performance-logs {
+  color: var(--debug-color);
+
+  p {
+    margin: 0 0 1px;
+    font-size: 14px;
+  }
+}

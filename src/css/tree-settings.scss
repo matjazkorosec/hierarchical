@@ -1,0 +1,53 @@
+.tree-settings {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+  text-align: left;
+  font-size: 14px;
+
+  li {
+    margin: 0 0 10px;
+    padding: 0;
+  }
+
+  .has-checkbox {
+    .text {
+      width: auto;
+    }
+  }
+
+  .option-disabled {
+    label {
+      cursor: not-allowed;
+      opacity: 0.3;
+      pointer-events: none;
+    }
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  select {
+    width: 160px;
+  }
+
+  input[type='number'] {
+    border: 1px solid #555;
+    width: 40px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  .text {
+    width: 140px;
+    display: inline-block;
+  }
+
+  .select-trigger {
+    width: 160px;
+  }
+}

@@ -1,0 +1,24 @@
+.filter-field {
+  border-radius: 4px;
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  background: #eee;
+  box-sizing: border-box;
+
+  .search-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 19px;
+    left: 18px;
+  }
+
+  .filter-input {
+    border: 1px solid #555;
+    padding: 8px 8px 8px 30px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+}

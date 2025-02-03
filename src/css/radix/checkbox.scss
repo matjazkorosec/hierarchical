@@ -1,0 +1,34 @@
+.checkbox-label {
+  align-items: center;
+  cursor: pointer;
+  width: auto;
+}
+
+.checkbox-label > span {
+  padding-left: 6px;
+}
+
+.radix-checkbox {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  flex-shrink: 0;
+}
+
+.radix-checkbox[data-state='checked'] {
+  border-color: #007bff;
+  background-color: #007bff;
+}
+
+.checkbox-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
