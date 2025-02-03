@@ -1,7 +1,7 @@
 # Hierarchical structure
 
 Hierarchical structure is a **React & TypeScript** application designed for interactive tree visualization using **D3.js**.  
-It enables users to explore hierarchical data with filtering, settings customization, and performance tracking.
+It enables users to explore hierarchical data with filtering, settings customization and performance tracking.
 
 ---
 
